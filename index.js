@@ -9,7 +9,7 @@ app.post("/", (req,res) => {
     let data = req.body;
     let a = data.a;
     let b = data.b;
-    let op = data.operation;
+    let op = data.op;
     let c = 0;
     switch(op){
         case "+":{
