@@ -25,7 +25,7 @@ app.post("/", (req,res) => {
             break;
         }
         case "/":{
-            console.log(312);
+            c = a / b
             break;
         }
     }
